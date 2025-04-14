@@ -1,4 +1,4 @@
-# 🚀 NextLearn - eLearning Platform
+#  NextLearn - eLearning Platform
 
 **NextLearn** is an interactive eLearning platform built using **Vanilla JavaScript**, **HTML**, and **CSS**. The platform allows users to browse courses, watch video lessons, track their progress, and take quizzes to enhance their learning experience.
 
