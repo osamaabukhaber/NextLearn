@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Session</title>
+    <link rel="icon" type="image/svg+xml" href="../../svgIcon/chalkboard-user-solid.svg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- 
+    <div class="sidebar">
+        <button onclick="window.location.href='/groups/create_group.html'">Create Course</button>
+        <button onclick="window.location.href='/groups/all_groups.html'">All Courses</button>
+        <button onclick="window.location.href='/exams/pages/index.html'">Create Exam</button>
+        <button onclick="window.location.href='/exams/pages/all exams.html'">All Exams</button>
+        <button onclick="window.location.href='create_session.html'">Create Session</button>
+        <button onclick="window.location.href='all_sessions.html'">All Sessions</button>
+    </div> -->
+
+    <div class="main-content">
+        <!-- <div class="header">ITI E-learning</div> -->
+
+        <div class="dashboard-content">
+            <form id="sessionForm">
+                <label for="sessionName">Session Name:</label>
+                <input type="text" id="sessionName" placeholder="Session Name" required>
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate" required>
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate" required>
+                <label for="sessionUrl">Session URL:</label>
+                <input type="url" id="sessionUrl" placeholder="Session URL" required>
+                <button type="submit" class="black-button">Save Session</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js">
+    </script>
+
+</body>
+</html>

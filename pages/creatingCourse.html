@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create course</title>
+    <link rel="icon" type="image/svg+xml" href="../../svgIcon/chalkboard-user-solid.svg">
+    <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+    <script src="./main.js"></script>
+<!-- 
+    <div class="sidebar">
+        <button onclick="window.location.href='create_group.html'">Create Course</button>
+        <button onclick="window.location.href='all_groups.html'">All Courses</button>
+        <button onclick="window.location.href='/exams/pages/index.html'">Create Exam</button>
+        <button onclick="window.location.href='/exams/pages/all exams.html'">All Exams</button>
+        <button onclick="window.location.href='/sessions/create_session.html'">Create Session</button>
+        <button onclick="window.location.href='/sessions/all_sessions.html'">All Sessions</button>
+    </div> -->
+
+    <div class="main-content">
+        <!-- <div class="header">ITI E-learning</div> -->
+
+        <div class="dashboard-content">
+            <div class="container">
+                <form id="courseForm">
+                    <label for="courseName">Course Name:</label>
+                    <input type="text" id="courseName" placeholder="Course Name" required>
+                    <label for="creationDate">Creation Date</label>
+                    <input type="date" id="creationDate" required>
+                    <label for="endDate">End Date</label>
+                    <input type="date" id="endDate" required>
+                    <label for="courseDescription">Course Description:</label>
+                    <input type="text" id="courseDescription" placeholder="Enter course description" required>
+                    <label for="courseLink">Course Link:</label>
+                    <input type="url" id="courseLink" placeholder="Enter course link (URL)" required>
+                    <label for="price">Price</label>
+                    <input type="number" id="price" placeholder="Price" required>
+                    <button type="submit" class="black-button">Save Course</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

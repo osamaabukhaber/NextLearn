@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Create Exam</title>
+    <link rel="icon" type="image/svg+xml" href="../../svgIcon/chalkboard-user-solid.svg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <div class="sidebar">
+        <button onclick="window.location.href='/groups/create_group.html'">Create Course</button>
+        <button onclick="window.location.href='/groups/all_groups.html'">All Courses</button>
+        <button onclick="window.location.href='index.html'">Create Exam</button>
+        <button onclick="window.location.href='all exams.html'">All Exams</button>
+        <button onclick="window.location.href='/sessions/create_session.html'">Create Session</button>
+        <button onclick="window.location.href='/sessions/all_sessions.html'">All Sessions</button>
+    </div> -->
+
+    <div class="main-content">
+        <!-- <div class="header">ITI E-learning</div> -->
+        <div class="dashboard-content">
+            <form id="examForm">
+                <label for="examTitle">Enter Exam Title:</label>
+                <input type="text" id="examTitle" name="examTitle" placeholder="Enter Exam Title" required>
+                <div id="questions"></div>
+                <button  class="black-button" type="button" onclick="addQuestion()">Add Question</button>
+                <button  class="black-button" type="submit" >Submit Exam</button>
+            </form>
+        </div>
+    </div>        
+
+    <script src="./main.js"></script>
+</body>
+</html>
