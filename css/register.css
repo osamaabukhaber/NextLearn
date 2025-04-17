@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'customFont';
-    src: url(font/Circular\ Std\ Font.otf);
+    src: url(../assets/../assets/fonts/CircularStd-Medium.woff);
 }
 
 html {

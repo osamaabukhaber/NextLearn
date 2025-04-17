@@ -196,8 +196,8 @@
     @font-face {
       font-family: 'Circular Std';
       src: 
-        url('../fonts/circular-std/CircularStd-Medium.woff') format('woff'),
-        url('../fonts/circular-std/CircularStd-Medium.ttf') format('truetype');
+        // url('../assets/fonts/CircularStd-Black.woff') format('woff'),
+        url('../assets/fonts/CircularStd-Medium.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
     }

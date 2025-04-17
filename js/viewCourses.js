@@ -487,7 +487,7 @@ setElementAttribute(instructorHeaderStudentContainerAnckorLink,
         white-space-collapse :collapse;
         width :auto;
         `,
-        "href": "../../instructor/HTML/profilePicrure.html",
+        "href": "../pages/InstructorProfilePicrure.html",
         "target": "_self"
     })
 setElementAttribute(instructorHeaderStudentContainerText,
@@ -554,7 +554,7 @@ setElementAttribute(instructorHeaderHomeContainerAnckorLink,
         white-space-collapse :collapse;
         width :auto;
         `,
-        "href": "../../instructor/HTML/profilePicrure.html",
+        "href": "../pages/InstructorProfilePicrure.html",
         "target": "_self"
     })
 setElementAttribute(instructorHeaderHomeContainerText,
@@ -632,7 +632,7 @@ setElementAttribute(instructorHeaderAboutContainerAnchorLink,
         white-space-collapse :collapse;
         width :auto;
         `,
-        "href": "../HTML/profilePicrure.html",
+        "href": "../pages/InstructorProfilePicrure.html",
         "target": "_self"
     })
 setElementAttribute(instructorHeaderAboutContainerText,
@@ -685,7 +685,7 @@ setElementAttribute(instructorHeaderImgContainerAnchorLink,
         padding :6px 12px;
         vertical-align: bottom;
         `,
-        "href":"../../instructor/HTML/profile.html",
+       "href": "../pages/InstructorProfilePicrure.html",
         "alt": "edit"
     })
 setElementAttribute(instructorHeaderImg,
@@ -708,7 +708,7 @@ setElementAttribute(instructorHeaderImg,
             vertical-align :middle;
             width :32px;
         `,
-        "src": currentInstructor.instructorImage ? currentInstructor.instructorImage : "../../imagee/img1.png",
+        "src": currentInstructor.instructorImage ? currentInstructor.instructorImage : "../assets/images/instructor profile images/img1.png",
         "alt": "personal image",
     }
 )
@@ -763,7 +763,7 @@ instrcutorPageAsideBarAnchorLinks[6].onclick =function(eve)
 {
     eve.preventDefault();
     updateLoggedInstructor(currentInstructor);
-    location.replace("../../login/registration.html");
+    location.replace("../pages/login.html");
 }
 setElementAttribute(instrcutorPageAsideBar,
     {
@@ -830,9 +830,9 @@ let instrcutorPageAsideBarAnchorLinksStyle = {
     white-space-collapse :collapse;
     text-decoration: none;
     `,
-    "href": "../../InstructorActivity/creatExam/main.html"
+    "href": "../pages/InstructorProfilePicrure.html",
 }
-let pagesLinks=["../creatExam/main.html","../creatSession/main.html","../creatCourse/main.html","../showExam/main.html","../showSession/main.html","../showCourse/main.html"]
+let pagesLinks=["../pages/createExam.html","../pages/createSession.html","../pages/creatingCourse.html","../pages/viewExam.html","../pages/viewSession.html","../pages/viewCourses.html"]
 for(let i=0 ; i<instrcutorPageAsideBarListItems.length ;i++)
 {
     setElementAttribute(instrcutorPageAsideBarListItems[i],instrcutorPageAsideBarListItemsStyle);
