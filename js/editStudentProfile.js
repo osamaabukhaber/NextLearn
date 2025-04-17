@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Redirect back to profile
-        window.location.href = "../html/StudentProfile.html";
+        window.location.href = "../pages/StudentProfile.html";
        // location.replace("../html/StudentProfile.html");
     });
 });
