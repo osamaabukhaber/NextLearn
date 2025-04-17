@@ -75,7 +75,7 @@ let imgInputTag=document.createElement('input');
 let imgButtonTag=document.createElement("button");
 
 // styling img
-imageTag.style.src="../images/male green.png";
+imageTag.style.src="../assets/images/student profile images/male green.png";
 imageTag.style.width="150px";
 imageTag.style.height="150px";
 imageTag.style.borderRadius="50%";
@@ -266,7 +266,7 @@ function UpdateProfilePictureEvent(){
 function editProfileInfo(){
     const student = getLoggedStudent();
     if (student) {
-        window.location.href = '../html/edit.html';
+        window.location.href = '../pages/editStudentProfile.html';
     } else {
         console.log("No logged in student found");
     }
