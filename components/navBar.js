@@ -265,18 +265,18 @@ homeLink.addEventListener("click", () => {
 
 const session = createNavLink("Session");
 session.addEventListener("click", () => {
-  window.location.href = "../../studentActivity/sessionDetails/session.html";
+  window.location.href = "../pages/sessionDetails.html";
 });
 
 const feedback = createNavLink("Feedback");
 feedback.addEventListener("click", () => {
-  window.location.href ="../../studentActivity/feedback-form/feedback.html";
+  window.location.href ="../pages/feedback-form/feedback.html";
 });
 
 // const tracksLink = createNavLink("Tracks");
 const tracksLink = createNavLink("Tracks");
 tracksLink.addEventListener("click", () => {
-  window.location.href = "../../studentActivity/select-trak/track.html";
+  window.location.href = "../pages/track.html";
 });
 
 const aboutLink = createNavLink("About");
