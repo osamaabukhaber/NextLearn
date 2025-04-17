@@ -260,7 +260,7 @@ const createNavLink = (text) => {
 // const homeLink = createNavLink("Home");
 const homeLink = createNavLink("Home");
 homeLink.addEventListener("click", () => {
-  window.location.href = "studentProfile.html";
+  window.location.href = "../pages/studentProfile.html";
 });
 
 const session = createNavLink("Session");
@@ -270,13 +270,13 @@ session.addEventListener("click", () => {
 
 const feedback = createNavLink("Feedback");
 feedback.addEventListener("click", () => {
-  window.location.href ="../pages/feedback-form/feedback.html";
+  window.location.href ="../pages/feedbackForm.html";
 });
 
 // const tracksLink = createNavLink("Tracks");
 const tracksLink = createNavLink("Tracks");
 tracksLink.addEventListener("click", () => {
-  window.location.href = "../pages/track.html";
+  window.location.href = "../pages/selectTrack.html";
 });
 
 const aboutLink = createNavLink("About");
@@ -334,7 +334,7 @@ const createMenuItem = (text, onClick) => {
   return item;
 };
 
-const myProfileItem = createMenuItem("My Profile", () => {window.location.href = "studentProfile.html";
+const myProfileItem = createMenuItem("My Profile", () => {window.location.href = "../pages/studentProfile.html";
 
     
 
