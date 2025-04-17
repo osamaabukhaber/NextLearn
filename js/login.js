@@ -25,7 +25,7 @@ logInForm.addEventListener("submit", function (e) {
                 console.log(studentsData[i]);
                 loggedUser = studentsData[i]
                 localStorage.setItem("loggedStudent",JSON.stringify(loggedUser))
-                location.replace("../student/html/StudentProfile.html");
+                location.replace("../pages/StudentProfile.html");
                 
             }
         }
@@ -38,7 +38,7 @@ logInForm.addEventListener("submit", function (e) {
                 console.log(teachersData[i]);
                 loggedUser = teachersData[i]
                 localStorage.setItem("loggedTeacher",JSON.stringify(loggedUser))
-                location.replace("../instructor/HTML/profile.html");
+                location.replace("../pages/InstructorProfile.html");
                 
                 
             }
