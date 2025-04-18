@@ -2857,7 +2857,7 @@ navButton[1].onclick = function (eve) {
         }
         else
         {
-            setElementAttribute(section2Image,{ "src":"../../imagee/img1.png"});
+            setElementAttribute(section2Image,{ "src":"../assets/images/instructor profile images/img1.png"});
         }
         //store image at local storage 
         section2SumbitButton.onclick =function(eve)

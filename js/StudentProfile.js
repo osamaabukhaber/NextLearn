@@ -4,7 +4,7 @@ let editProfilePictureBtn=document.getElementById("edit-profile-picture-btn");
 let profilePictureInput=document.getElementById("profile-picture-input");
 let profileImageDiv=document.getElementById("profile-image-div");
 
-let students=[];
+// let students=[];
 
 
 
